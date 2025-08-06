@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  padding: 0 4rem;
+  padding: 0 2rem;
   gap: 2rem;
 }
 
@@ -98,11 +98,12 @@
 }
 
 .home-image img {
-  width: 400px;
-  height: 400px;
+  width: clamp(250px, 30vw, 380px);
+  height: clamp(250px, 30vw, 380px);
   border-radius: 50%;
   border: 5px solid #ffffff;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px #64ffda;
+  object-fit: cover;
 }
 
 /* Responsive Design */
