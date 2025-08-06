@@ -4,7 +4,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import './Home.css';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
   const [text] = useTypewriter({
