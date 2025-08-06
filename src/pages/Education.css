@@ -1,0 +1,33 @@
+.education-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #64ffda;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Overriding react-vertical-timeline-component styles */
+.vertical-timeline-element-title {
+  color: #64ffda;
+  font-size: 1.5rem;
+}
+
+.vertical-timeline-element-subtitle {
+  color: #a8b2d1;
+  font-size: 1.1rem;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+  border-radius: 8px;
+}
+
+.vertical-timeline::before {
+  background: #233554;
+}

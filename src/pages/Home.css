@@ -1,0 +1,140 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 0 4rem;
+  gap: 2rem;
+}
+
+.home-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.full-name {
+  font-size: 4rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+
+.highlight {
+  color: #64ffda;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #cccccc;
+  max-width: 500px;
+  margin: 1.5rem 0;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.cta-btn {
+  padding: 0.8rem 1.5rem;
+  border: 2px solid #64ffda;
+  background-color: #64ffda;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px #64ffda, 0 0 15px #64ffda;
+}
+
+.cta-btn:hover {
+  background-color: transparent;
+  color: #64ffda;
+}
+
+.cta-btn.secondary {
+  background-color: transparent;
+  color: #64ffda;
+}
+
+.cta-btn.secondary:hover {
+  background-color: #64ffda;
+  color: #000000;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.social-icons a {
+  color: #cccccc;
+  font-size: 1.8rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px #64ffda;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .home-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem;
+  }
+  .home-content {
+    max-width: 100%;
+  }
+  .cta-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+  .full-name {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .full-name {
+    font-size: 2.5rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}

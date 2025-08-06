@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #cccccc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  /* Navbar height is approx 70px, Footer is approx 80px */
+  padding: 80px 2rem 90px;
+  min-height: calc(100vh - 170px); /* 100vh - (Navbar + Footer height) */
+}
