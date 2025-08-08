@@ -35,7 +35,8 @@ const Skills = () => {
           className="skills-grid"
           variants={containerVariants}
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
         >
           {skills.map((skill, index) => (
             <motion.div

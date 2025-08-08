@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import './Home.css';
 import { Helmet } from 'react-helmet-async';
@@ -38,13 +37,6 @@ const Home = () => {
             <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cta-btn">Hire Me</Link>
             <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cta-btn secondary">Let's Talk</Link>
             <a href="/MyResume.pdf" download className="cta-btn">Download Resume</a>
-          </div>
-          <div className="social-icons">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
           </div>
         </div>
         <div className="home-image">

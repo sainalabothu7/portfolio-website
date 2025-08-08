@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaGraduationCap, FaSchool, FaBook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import './Education.css';
@@ -34,7 +34,34 @@ const Education = () => {
               CGPA: 8.7 | Focus on Cybersecurity, Web Dev
             </p>
           </VerticalTimelineElement>
-          {/* Add more education entries here if needed */}
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: '#112240', color: '#cccccc' }}
+            contentArrowStyle={{ borderRight: '7px solid  #112240' }}
+            date="2019 - 2021"
+            iconStyle={{ background: '#FFD700', color: '#000000' }}
+            icon={<FaSchool />}
+          >
+            <h3 className="vertical-timeline-element-title">Intermediate Education (MPC)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Narayana Junior College</h4>
+            <p>
+              Percentage: 95%
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: '#112240', color: '#cccccc' }}
+            contentArrowStyle={{ borderRight: '7px solid  #112240' }}
+            date="2018 - 2019"
+            iconStyle={{ background: '#FFD700', color: '#000000' }}
+            icon={<FaBook />}
+          >
+            <h3 className="vertical-timeline-element-title">10th Class (SSC)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sri Chaitanya School</h4>
+            <p>
+              GPA: 9.8
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </motion.div>
     </>
