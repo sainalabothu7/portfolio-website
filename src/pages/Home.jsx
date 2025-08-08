@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
@@ -35,8 +35,8 @@ const Home = () => {
             Passionate developer crafting beautiful, responsive websites with cutting-edge technology.
           </p>
           <div className="cta-buttons">
-            <Link to="/contact" className="cta-btn">Hire Me</Link>
-            <Link to="/contact" className="cta-btn secondary">Let's Talk</Link>
+            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cta-btn">Hire Me</Link>
+            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="cta-btn secondary">Let's Talk</Link>
             <a href="/MyResume.pdf" download className="cta-btn">Download Resume</a>
           </div>
           <div className="social-icons">
