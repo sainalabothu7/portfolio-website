@@ -29,7 +29,7 @@ const Home = () => {
           <h1 className="full-name">SaiLokesh Nalabothu</h1>
           <h2 className="title">
             A <span className="highlight">{text}</span>
-            <Cursor cursorColor='#64ffda' />
+            <Cursor cursorColor='#FFD700' />
           </h2>
           <p className="description">
             Passionate developer crafting beautiful, responsive websites with cutting-edge technology.

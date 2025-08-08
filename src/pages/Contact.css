@@ -7,7 +7,7 @@
 .contact-title {
   text-align: center;
   font-size: 3rem;
-  color: #64ffda;
+  color: #FFD700;
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -38,7 +38,7 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #64ffda;
+  border-color: #FFD700;
 }
 
 .error-text {
@@ -49,8 +49,8 @@
 
 .submit-btn {
   padding: 1rem 2rem;
-  border: 2px solid #64ffda;
-  background-color: #64ffda;
+  border: 2px solid #FFD700;
+  background-color: #FFD700;
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -63,7 +63,7 @@
 
 .submit-btn:hover {
   background-color: transparent;
-  color: #64ffda;
+  color: #FFD700;
 }
 
 .success-message {
@@ -71,11 +71,11 @@
   padding: 2rem;
   background-color: #112240;
   border-radius: 8px;
-  border: 2px solid #64ffda;
+  border: 2px solid #FFD700;
 }
 
 .success-message h2 {
-  color: #64ffda;
+  color: #FFD700;
   margin-bottom: 1rem;
 }
 

@@ -25,7 +25,7 @@ const Education = () => {
             contentStyle={{ background: '#112240', color: '#cccccc' }}
             contentArrowStyle={{ borderRight: '7px solid  #112240' }}
             date="2021 - 2025"
-            iconStyle={{ background: '#64ffda', color: '#000000' }}
+            iconStyle={{ background: '#FFD700', color: '#000000' }}
             icon={<FaGraduationCap />}
           >
             <h3 className="vertical-timeline-element-title">B.Tech in Computer Science and Engineering</h3>

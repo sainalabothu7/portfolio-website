@@ -30,7 +30,7 @@
 }
 
 .highlight {
-  color: #64ffda;
+  color: #FFD700;
 }
 
 .description {
@@ -48,28 +48,28 @@
 
 .cta-btn {
   padding: 0.8rem 1.5rem;
-  border: 2px solid #64ffda;
-  background-color: #64ffda;
+  border: 2px solid #FFD700;
+  background-color: #FFD700;
   color: #000000;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   transition: all 0.3s ease;
-  box-shadow: 0 0 5px #64ffda, 0 0 15px #64ffda;
+  box-shadow: 0 0 5px #FFD700, 0 0 15px #FFD700;
 }
 
 .cta-btn:hover {
   background-color: transparent;
-  color: #64ffda;
+  color: #FFD700;
 }
 
 .cta-btn.secondary {
   background-color: transparent;
-  color: #64ffda;
+  color: #FFD700;
 }
 
 .cta-btn.secondary:hover {
-  background-color: #64ffda;
+  background-color: #FFD700;
   color: #000000;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .social-icons a:hover {
-  color: #64ffda;
+  color: #FFD700;
   transform: translateY(-3px);
 }
 
@@ -102,7 +102,7 @@
   height: clamp(250px, 30vw, 380px);
   border-radius: 50%;
   border: 5px solid #ffffff;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px #64ffda;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px #FFD700;
   object-fit: cover;
 }
 

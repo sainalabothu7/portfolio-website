@@ -1,0 +1,19 @@
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; /* To offset the navbar */
+}
+
+/* Special handling for the home section to be flush with the top */
+section#home {
+  justify-content: center;
+}
+
+/* Adding a bit of padding to all sections except home */
+section:not(#home) {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}

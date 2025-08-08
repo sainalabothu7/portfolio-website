@@ -7,7 +7,7 @@
 .projects-title {
   text-align: center;
   font-size: 3rem;
-  color: #64ffda;
+  color: #FFD700;
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -42,7 +42,7 @@
 
 .project-name {
   font-size: 1.5rem;
-  color: #64ffda;
+  color: #FFD700;
   margin: 0;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .project-links a:hover {
-  color: #64ffda;
+  color: #FFD700;
 }
 
 .project-description {
@@ -75,7 +75,7 @@
 
 .project-tech-list li {
   background-color: #233554;
-  color: #64ffda;
+  color: #FFD700;
   padding: 0.3rem 0.7rem;
   border-radius: 15px;
   font-size: 0.8rem;
