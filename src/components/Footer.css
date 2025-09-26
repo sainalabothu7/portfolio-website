@@ -1,29 +1,31 @@
 .footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #0a0a0a;
-  padding: 1.5rem 2rem;
-  border-top: 1px solid #FFD700;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  z-index: 1000;
+  pointer-events: all; /* Allow clicks on the footer links */
 }
 
 .footer-text p {
   margin: 0;
-  font-size: 0.9rem;
+  padding: 0;
 }
 
-.footer-icons {
-  display: flex;
-  gap: 1.5rem;
-}
-
-.footer-icons a {
+.footer-socials a {
   color: #cccccc;
+  margin-left: 1.5rem;
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
-.footer-icons a:hover {
-  color: #FFD700;
+.footer-socials a:hover {
+  color: #FFD700; /* Gold color on hover */
 }
